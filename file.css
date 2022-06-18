@@ -1,0 +1,133 @@
+body {
+    background: #12e2c9;
+    font-family: 'Century Gothic';   
+}
+
+.main {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 3px solid red;
+}
+
+.main .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background-color: #e53939;
+}
+
+.main .left h1 {
+    margin-top: 100px;
+    font-size: 45px;
+}
+
+#one {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left form input {
+    text-align: center;
+    width: 60%;
+    height: 35px;
+    margin-bottom: 12px;
+    border: none;
+    background: #f8f8f8;
+    border-radius: 25px;
+}
+
+#two {
+    background: #f4ed15;
+    color: red;
+    cursor: pointer;
+    width: 23%;
+    font-weight: bold;
+}
+
+#two:hover {
+    background: rgb(195, 228, 13);
+}
+
+.left form input:focus {
+    outline: none;
+}
+
+.forget {
+    font-size: 16px;
+}
+
+.forget:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.or {
+    font-size: 20px;
+    height: 30px;
+    width: 40px;
+    padding-top: 10px;
+    background: #e53939;
+    border-radius: 50%;
+    position: absolute;
+    left: 49%;
+}
+
+.right {
+    text-align: center;
+}
+
+.main .right h1 {
+    margin-top: 100px;
+    font-size: 45px;
+}
+
+#hed {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right .social {
+    margin-top: 40px;
+}
+.social button {
+    border: none;
+    padding: 15px;
+    width: 50px;
+    font-size: 18px;
+    background: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.social .twitter {
+     color: #55acee;
+}
+
+.social .twitter:hover {
+    background: #55acee;
+    color: #fff;
+    cursor: pointer;
+}
+
+.social .fb {
+    color: #012677;
+}
+
+.social .fb:hover {
+    background: #012677;
+    color: #fff;
+    cursor: pointer;
+}
+
+.social .google {
+    color: #d50f25;
+}
+
+.social .google:hover {
+    background: #d50f25;
+    color: #fff;
+    cursor: pointer;
+}
